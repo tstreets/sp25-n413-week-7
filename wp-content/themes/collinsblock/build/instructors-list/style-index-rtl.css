@@ -7,23 +7,23 @@
  *
  * Replace them with your own styles or remove the file completely.
  */
-.wp-block-custom-blocks-main-nav {
+.wp-block-custom-blocks-instructors-list {
   background-color: var(--wp--preset--color--primary);
 }
-.wp-block-custom-blocks-main-nav ul {
+.wp-block-custom-blocks-instructors-list ul {
   height: 60px;
   list-style: none;
   display: flex;
   align-items: center;
   gap: 40px;
 }
-.wp-block-custom-blocks-main-nav ul a {
+.wp-block-custom-blocks-instructors-list ul a {
   text-decoration: none;
   color: #fff;
 }
-.wp-block-custom-blocks-main-nav ul li {
+.wp-block-custom-blocks-instructors-list ul li {
   font-size: 18px;
 }
-.wp-block-custom-blocks-main-nav ul li:first-child {
+.wp-block-custom-blocks-instructors-list ul li:first-child {
   font-size: 24px;
 }

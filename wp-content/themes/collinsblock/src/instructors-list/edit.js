@@ -31,21 +31,17 @@ import "./editor.scss";
  */
 export default function Edit() {
 	return (
-		<nav {...useBlockProps()}>
-			<ul>
-				<li>
-					<a href="#">Collins Music Academy</a>
-				</li>
-				<li>
-					<a href="#">Home</a>
-				</li>
-				<li>
-					<a href="#">Lessons</a>
-				</li>
-				<li>
-					<a href="#">Instructors</a>
-				</li>
-			</ul>
-		</nav>
+		<section {...useBlockProps()}>
+			<div>
+				<figure>
+					<img
+						src="https://picsum.photos/400"
+						alt="Random Image used as profile"
+					/>
+				</figure>
+				<h4>Instructor Streets</h4>
+				<p>Instruments: Flute, Recorder</p>
+			</div>
+		</section>
 	);
 }
