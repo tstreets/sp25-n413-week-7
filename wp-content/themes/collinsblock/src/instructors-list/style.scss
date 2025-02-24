@@ -6,27 +6,19 @@
  */
 
 .wp-block-custom-blocks-instructors-list {
-	background-color: var(--wp--preset--color--primary);
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	gap: 40px;
 
-	ul {
-		height: 60px;
-		list-style: none;
+	div figure {
+		height: 300px;
+		width: 300px;
+		border-radius: 50%;
+		overflow: hidden;
 
-		display: flex;
-		align-items: center;
-		gap: 40px;
-
-		a {
-			text-decoration: none;
-			color: #fff;
-		}
-
-		li {
-			font-size: 18px;
-		}
-
-		li:first-child {
-			font-size: 24px;
+		img {
+			margin-top: -50px;
+			margin-left: -50px;
 		}
 	}
 }

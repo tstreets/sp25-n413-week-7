@@ -8,24 +8,19 @@
  * Replace them with your own styles or remove the file completely.
  */
 .wp-block-custom-blocks-instructors-list {
-  background-color: var(--wp--preset--color--primary);
-}
-.wp-block-custom-blocks-instructors-list ul {
-  height: 60px;
-  list-style: none;
-  display: flex;
-  align-items: center;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
   gap: 40px;
 }
-.wp-block-custom-blocks-instructors-list ul a {
-  text-decoration: none;
-  color: #fff;
+.wp-block-custom-blocks-instructors-list div figure {
+  height: 300px;
+  width: 300px;
+  border-radius: 50%;
+  overflow: hidden;
 }
-.wp-block-custom-blocks-instructors-list ul li {
-  font-size: 18px;
-}
-.wp-block-custom-blocks-instructors-list ul li:first-child {
-  font-size: 24px;
+.wp-block-custom-blocks-instructors-list div figure img {
+  margin-top: -50px;
+  margin-left: -50px;
 }
 
 /*# sourceMappingURL=style-index.css.map*/
