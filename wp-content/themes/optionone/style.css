@@ -1,0 +1,77 @@
+/*
+Theme Name: Option One
+Author: Ty Streets
+Description: First option for making the theme
+Version: 1
+*/
+
+/* 
+    color-scheme
+    background / light grey : #e9e8f2;
+    primary / navy blue : #2857a8;
+    secondary / dark grey : #8891a8;
+*/
+
+body {
+  background-color: #e9e8f2;
+}
+
+nav {
+  background-color: #2857a8;
+
+  ul {
+    height: 60px;
+
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    list-style: none;
+
+    a {
+      text-decoration: none;
+      color: #e9e8f2;
+    }
+
+    li {
+      font-size: 18px;
+    }
+
+    li:first-child {
+      font-size: 24px;
+      font-weight: bold;
+    }
+  }
+}
+
+header {
+  width: 100%;
+
+  figure {
+    width: 100%;
+    height: 300px;
+    overflow: hidden;
+
+    img {
+      width: 100%;
+      margin-top: -150px;
+    }
+  }
+}
+
+main {
+  padding: 0 80px;
+
+  section#instructors {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 40px;
+
+    div figure {
+      width: 300px;
+      height: 300px;
+      border-radius: 50%;
+      overflow: hidden;
+    }
+  }
+}
